@@ -1,18 +1,28 @@
-# Hackathon Gen-AI
+LexAi
 
-Ce projet utilise divers services AWS pour fournir une solution d'audit de baux commerciaux.
+Description
 
-## Table des matières
-1. [Introduction](#introduction)
-2. [Technologies utilisées](#technologies-utilisees)
-3. [Configuration AWS](#configuration-aws)
+LexAi aide les avocats à générer automatiquement des fiches d'audit de baux grâce à l'IA. L'application analyse les contrats de bail et produit des rapports clairs et structurés.
 
-## Introduction
-Ce projet utilise AWS pour héberger des services cloud. Il comprend des fonctionnalités telles que le stockage s3, une API Gateway, le traitement de données, l'utilisation de llm et la génération de documents.
+Fonctionnalités
 
-## Technologies utilisées
-- **AWS S3** : Stockage d'objets
-- **AWS Lambda** : Fonctions sans serveur
-- **AWS DynamoDB** : Base de données 
-- **AWS API Gateway** : Point d'entrée de l'architecture
-- **AWS Bedrock** : Création et mise à l'échelle d'applications d’IA générative
+Génération automatique de fiches d'audit
+
+Analyse des clauses juridiques
+
+Extraction des informations clés
+
+Export en PDF et Word
+
+Technologies
+
+Framework : Next.js
+
+Installation
+
+git clone https://github.com/LexAI2025/front.git
+cd lexai
+npm install
+npm run dev
+
+
